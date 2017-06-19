@@ -44,6 +44,5 @@ public class MovieDetailActivity extends AppCompatActivity {
         mImageView = (ImageView) findViewById(R.id.movie_img);
         String url = NetworkUtils.BASE_IMAGE_URL + movie.getPoster_path();
         Picasso.with(this).load(url).into(mImageView);
-        System.out.println("loaded image");
     }
 }

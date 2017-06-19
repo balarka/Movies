@@ -44,20 +44,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         at.cancel(true);
         super.onPause();
-        System.out.println("transigion from onPause");
-
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.settings, menu);
         return true;
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        System.out.println("transigion from onDestroy");
     }
 
     @Override
