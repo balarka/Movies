@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="release_date">Release Date:</string>
+    <string name="rating">Sort by Top Rating</string>
+    <string name="popular">Sort by most Popular</string>
+    <string name="top_movies_title">Top Movies</string>
+    <string name="popular_movies_title">Popular Movies</string>
+    <string name="movie_detail">MovieDetail</string>
+    <string name="release_date_label">Release Date: </string>
+    <string name="movie_rating_suffix">/10</string>
+</resources>
