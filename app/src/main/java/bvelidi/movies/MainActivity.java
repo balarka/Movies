@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onPause() {
+        // Cancel Asynctask if it is pending, when the app goes to background.
         at.cancel(true);
         super.onPause();
     }
